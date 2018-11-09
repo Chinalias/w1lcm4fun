@@ -7,9 +7,9 @@ client.on('ready', () => {
 });
  
 client.on('guildMemberAdd' ,member => {
-  if(member.guild.id !== '497101650037702669') return;
+  if(member.guild.id !== '441998122827120640') return;
   setTimeout(function(){
-  member.guild.channels.find(r => r.id === '498405076805615626').send('**We are not a Friends We are a __Family__🎭**');
+  member.guild.channels.find(r => r.id === '501827332592631814').send('*Welcome To **4Fun** Server..*');
 },3000);
 });
 var PrEfix = "$";
